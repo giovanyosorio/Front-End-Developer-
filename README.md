@@ -47,7 +47,7 @@ El anidamiento de elementos HTML consiste en envolver varias etiquetas en otras 
 Interpreta a cada elemento HTML como una caja donde puedes guardar diferentes elementos u otras cajas. Estas cajas tendrán diferentes tamaños y estarán colocadas junto a otras.
 
 Anidamiento de elementos HTML
-Aquellas etiquetas que envuelven a otras se las denomina “padres”. Es decir, <section> es padre de <h1>, <p>, <ul>, y a su vez <ul> es padre de 3 etiquetas <li>.
+Aquellas etiquetas que envuelven a otras se las denomina “padres”. Es decir, <section> es padre de <h1>, <p>, %<ul>, y a su vez <ul> es padre de 3 etiquetas <li>.
 
 Las etiquetas que son el contenido de otras, se las denomina “hijos”. Es decir, las etiquetas <h1>, <p>, <ul> son hijos de <section>, y a su vez las etiquetas <li> son hijos de <ul>.
 
