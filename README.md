@@ -171,3 +171,27 @@ px: establece una longitud de píxeles.
 Profundiza más sobre el tema de medidas en:
 
 Unidades de medida
+https://platzi.com/clases/2467-frontend-developer/40844-unidades-de-medida/
+
+
+- **Tipos de selectores: básicos y combinadores**
+
+El selector define el elemento o conjunto de elementos HTML a los cuales se añadirán estilos. Existen nombres de colores propios de CSS que puedes explorar. A continuación veamos más sobre selectores.
+https://htmlcolorcodes.com/es/nombres-de-los-colores/
+Cuáles son los selectores básicos
+Un selector básico es la mínima expresión CSS para colocar estilos.
+
+selector {
+    /* Estilos */
+}
+
+![](img/frontend_developer10.png)
+
+1. Selector de tipo
+Selecciona todos los elementos que coincidan con el nombre de la etiqueta HTML.
+
+``css
+div {
+    /* Todos los div en el documento */
+}
+```
