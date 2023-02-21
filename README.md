@@ -180,12 +180,12 @@ El selector define el elemento o conjunto de elementos HTML a los cuales se aña
 https://htmlcolorcodes.com/es/nombres-de-los-colores/
 Cuáles son los selectores básicos
 Un selector básico es la mínima expresión CSS para colocar estilos.
-
+```css
 selector {
     /* Estilos */
 }
-
-![](img/frontend_developer10.png)
+```
+![](img/frontend_developer14.png)
 
 1. Selector de tipo
 Selecciona todos los elementos que coincidan con el nombre de la etiqueta HTML.
@@ -197,7 +197,7 @@ div {
 ```
 
 Desafío de selector de tipo
-Intenta dar un color de fondo a 10 etiquetas <div> con un solo selector, utiliza la propiedad background-color.
+Intenta dar un color de fondo a 10 etiquetas ```<div>``` con un solo selector, utiliza la propiedad background-color.
 
 Desafío selector de tipo
 
@@ -239,7 +239,7 @@ Puede existir más de un valor dentro del atributo class separados por espacios.
 ```
 
 Desafío de selector de clase
-De un conjunto de etiquetas <div> intenta dar un color de fondo a las etiquetas que contengan la clase "card" con un solo selector. Después, intenta dar un color de letra diferente para las etiquetas que contengan "card1" y "card2"
+De un conjunto de etiquetas ```<div>``` intenta dar un color de fondo a las etiquetas que contengan la clase "card" con un solo selector. Después, intenta dar un color de letra diferente para las etiquetas que contengan "card1" y "card2"
 
 Desafío selector de clase
 
@@ -313,6 +313,7 @@ selector1 selector2 selector3 {
     /* Estilos */
 }
 ```
+![](img/frontend_developer15.png)
 
 1. Combinador de descendientes
 Selecciona todos los elementos del selector de la derecha que son hijos del selector de la izquierda, independientemente de la profundidad. Estos selectores están separados por un espacio.
