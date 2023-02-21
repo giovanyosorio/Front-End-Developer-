@@ -57,3 +57,29 @@ Las etiquetas que son el contenido de otras, se las denomina “hijos”. Es dec
 Estructura básica de un documento HTML
 La estructura básica de un documento HTML está configurado por las siguientes etiquetas principales:
 
+
+![](img/frontend_developer09.png) 
+
+Etiqueta Doctype
+La etiqueta <!DOCTYPE html> especifica que el archivo se maneje con la versión 5 de HTML.
+
+Etiqueta html
+La etiqueta <html> define el elemento raíz de un documento HTML. Todos los demás elementos deben estar contenidos dentro de este elemento raíz. En esta etiqueta se especifica el lenguaje de la página web mediante la propiedad lang.
+
+Etiqueta head
+La etiqueta <head> define la metainformación, es decir, toda información que no es contenido como tal de la página web. Por ejemplo, los enlaces a archivos CSS y JavaScript, el título y la imagen que aparecen en la pestaña del navegador. Esto es importante para motores de búsqueda como Google.
+
+Etiqueta body
+La etiqueta <body> define el contenido de la página web. Debe ser hijo cercano de <html> y padre de todas las etiquetas HTML, excepto por aquellas que definan metainformación.
+
+Comentarios de HTML
+Los comentarios de HTML consiste en señalar algo que se ignorará. Para establecer un comentario HTML se lo envuelve entre <!-- y -->, independiente de la cantidad de líneas.
+
+<!-- Este es un comentario de una línea -->
+<!--
+Este es un comentario de varias líneas
+-->
+Desafío: construye la estructura de un documento HTML
+Utiliza tu editor Visual Studio Code o la herramienta codi.link. Si utilizas codi.link puedes visualizar toda la página web en la opción “Preview”.
+
+
