@@ -49,7 +49,7 @@ Interpreta a cada elemento HTML como una caja donde puedes guardar diferentes el
 Anidamiento de elementos HTML
 Aquellas etiquetas que envuelven a otras se las denomina “padres”. Es decir, <section> es padre de <h1>, <p>, <ul>, y a su vez <ul> es padre de 3 etiquetas <li>.
 
-Las etiquetas que son el contenido de otras, se las denomina “hijos”. Es decir, las etiquetas <h1>, <p>, <ul> son hijos de <section>, y a su vez las etiquetas <li> son hijos de <ul>.
+Las etiquetas que son el contenido de otras, se las denomina “hijos”. Es decir, las etiquetas #<h1>, #<p>, #<ul> son hijos de #<section>, y a su vez las etiquetas <li> son hijos de #<ul>.
 
 Estructura básica de un documento HTML
 La estructura básica de un documento HTML está configurado por las siguientes etiquetas principales:
@@ -78,4 +78,5 @@ Desafío: construye la estructura de un documento HTML
 Utiliza tu editor Visual Studio Code o la herramienta codi.link. Si utilizas codi.link puedes visualizar toda la página web en la opción “Preview”.
 
 Solución al reto
+
 
