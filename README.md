@@ -357,7 +357,7 @@ div > p{
 ```
 
 Desafío de combinador de hijo directo
-Intenta colocar un color de letra a todos las etiquetas <p> que son hijos directos de la clase "container".
+Intenta colocar un color de letra a todos las etiquetas ```<p>``` que son hijos directos de la clase ```<container>```.
 
 Desafío combinador de hijo directo
 
@@ -394,7 +394,7 @@ Intenta colocar un color de letra a todos las etiquetas <p> que están adyacente
 
 Desafío combinador de elemento adyacente
 
-```html
+```css
 elemento ~ hermanos {
     /* Elementos hermanos */
 }
