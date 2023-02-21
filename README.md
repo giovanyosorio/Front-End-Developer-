@@ -112,3 +112,21 @@ Ayuda a tu sitio a ser accesible
 Mejora tu posicionamiento (SEO)
 Código más claro, legible y mantenible
 Ayuda a buscadores (como Google) a encontrar tu página
+
+
+- **Etiquetas de HTML más usadas**
+
+
+HTML Reference - A free guide to all HTML elements and attributes.
+
+http://htmlreference.io/
+
+
+curso-frontend-developer/etiquetas.html at 5108689bdb6599cc92bd9595db28784f9be48704 · platzi/curso-frontend-developer · GitHub
+
+https://github.com/platzi/curso-frontend-developer/blob/5108689bdb6599cc92bd9595db28784f9be48704/curso-1/etiquetas.html
+
+
+44 etiquetas HTML que debes conocer
+
+https://platzi.com/blog/etiquetas-html-debes-conocer/
