@@ -29,12 +29,12 @@ Los elementos son cada una de las partes que conforman un archivo HTML. Su estru
 Etiquetas: es la representación de un elemento HTML. Se dividen en etiquetas de apertura, representadas por <etiqueta> y etiquetas de cierre, representadas por </etiqueta>.
 Contenido: es el texto o elementos encerrados por la etiqueta, este valor es opcional en algunas de ellas.
 Anatomía de un elemento HTML
-Qué son atributos HTML
+**Qué son atributos HTML**
 Los atributos HTML son propiedades en la etiqueta de apertura que manejan el comportamiento del elemento. Su valor está envuelto en comillas.
 
-![](img/frontend_developer07.png) 
+![](img/frontend_developer06.png) 
 
-Qué son los elementos vacíos
+**Qué son los elementos vacíos**
 Los elementos vacíos son aquellos que únicamente se representan en una etiqueta de apertura. Por ejemplo, la etiqueta de imagen: <img...>.
 
 ![](img/frontend_developer08.png) 
@@ -47,14 +47,14 @@ El anidamiento de elementos HTML consiste en envolver varias etiquetas en otras 
 
 Interpreta a cada elemento HTML como una caja donde puedes guardar diferentes elementos u otras cajas. Estas cajas tendrán diferentes tamaños y estarán colocadas junto a otras.
 
-![](img/frontend_developer09.png) 
+![](img/frontend_developer07.png) 
 
 
 Aquellas etiquetas que envuelven a otras se las denomina “padres”. Es decir, "#section" es padre de "#h1", "#p", "#ul", y a su vez "#ul" es padre de 3 etiquetas "#li".
 
 Las etiquetas que son el contenido de otras, se las denomina “hijos”. Es decir, las etiquetas "h1", "p", "ul" son hijos de "section", y a su vez las etiquetas #li son hijos de "#ul".
 
-Estructura básica de un documento HTML
+- **Estructura básica de un documento HTML**
 La estructura básica de un documento HTML está configurado por las siguientes etiquetas principales:
 
 
@@ -72,7 +72,7 @@ La etiqueta <head> define la metainformación, es decir, toda información que n
 Etiqueta body
 La etiqueta <body> define el contenido de la página web. Debe ser hijo cercano de <html> y padre de todas las etiquetas HTML, excepto por aquellas que definan metainformación.
 
-Comentarios de HTML
+- **Comentarios de HTML**
 Los comentarios de HTML consiste en señalar algo que se ignorará. Para establecer un comentario HTML se lo envuelve entre <!-- y -->, independiente de la cantidad de líneas.
 
 <!-- Este es un comentario de una línea -->
