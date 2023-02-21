@@ -84,3 +84,9 @@ Utiliza tu editor Visual Studio Code o la herramienta codi.link. Si utilizas cod
 
 Solución al reto
 
+- **¿Qué es HTML semántico?**
+
+El HTML semántico consiste en que cada elemento tenga su propia etiqueta que lo defina correctamente. Sin utilizar etiquetas muy generales, como -div- o -span-.
+
+El problema con la etiqueta div
+La etiqueta div define un bloque genérico de contenido, que no tiene ningún valor semántico. Se utiliza para elementos de diseño como contenedores.
