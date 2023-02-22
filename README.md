@@ -427,6 +427,7 @@ Hermanos significa que comparten el mismo padre y están situados hacia abajo de
 ```
 **Tipos de selectores: pseudoclases y pseudoelementos**
 
+![](img/pseudoclases-elementos.png)
 
 Existen otros tipos de selectores, además de los selectores básicos y combinadores, capaces de cambiar un estado o añadir algo más al elemento. Estos son denominados pseudoclases y pseudoelementos.
 
