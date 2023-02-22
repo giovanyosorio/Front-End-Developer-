@@ -88,7 +88,7 @@ Solución al reto
 
 - **¿Qué es HTML semántico?**
 
-El HTML semántico consiste en que cada elemento tenga su propia etiqueta que lo defina correctamente. Sin utilizar etiquetas muy generales, como -div- o -span-.
+El HTML semántico consiste en que cada elemento tenga su propia etiqueta que lo defina correctamente. Sin utilizar etiquetas muy generales, como ```<div>``` o ```<span>```
 
 El problema con la etiqueta div
 La etiqueta div define un bloque genérico de contenido, que no tiene ningún valor semántico. Se utiliza para elementos de diseño como contenedores.
@@ -98,7 +98,7 @@ La etiqueta div define un bloque genérico de contenido, que no tiene ningún va
 ¿Cuáles son las etiquetas semánticas?
 Las etiquetas semánticas para definir una interfaz de una página web son:
 
-```<header>```: define el encabezado de la página (no confundir con "head").
+```<header>```: define el encabezado de la página (no confundir con ```<head>```).
 ```<nav>```: define una barra de navegación que incluye enlaces.
 ```<section>```: define una sección de la página.
 ```<footer>```: define un pie de página o de sección.
