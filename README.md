@@ -630,7 +630,7 @@ Flexbox consiste en el ordenamiento de elementos hijos en un solo eje, por defec
 
 Cuando domines los temas básicos de CSS y las propiedades más usadas, revisadas en el contenido del curso, sigue con Flexbox. Puedes utilizar la guía y el curso en Platzi sobre el tema:
     
-[Ejemplo de flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+[A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
     
 Qué es grid
 Grid consiste en el ordenamiento de elementos hijos en dos ejes, como si fuera una cuadrícula o tabla. El elemento padre o contenedor deberá contener la propiedad display con el valor grid y debes definir las medidas de las columnas y de las filas. A partir de aquí, ya puedes ordenar los hijos según sea necesario.
