@@ -621,7 +621,7 @@ Ambas son herramientas muy útiles en el desarrollo, especialmente para la creac
 
 Sin embargo, ambas herramientas tienen temas muy extensos de entender, y como mi intención no es estresarte con demasiada información, simplemente ten presente de manera general en qué consisten.
     
-**Qué es flexbox**
+### Flexbox
     
 ![](img/display.png)
 Flexbox consiste en el ordenamiento de elementos hijos en un solo eje, por defecto horizontalmente. El elemento padre o contenedor deberá contener la propiedad ```display``` con el valor ```flex```. A partir de aquí, ya puedes ordenar los hijos según sea necesario.
