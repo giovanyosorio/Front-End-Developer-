@@ -176,7 +176,7 @@ Unidades de medida
 https://platzi.com/clases/2467-frontend-developer/40844-unidades-de-medida/
 
 
-- **Tipos de selectores: básicos y combinadores**
+- **selectores: básicos y combinadores**
 
 El selector define el elemento o conjunto de elementos HTML a los cuales se añadirán estilos. Existen nombres de colores propios de CSS que puedes explorar. A continuación veamos más sobre selectores.
 https://htmlcolorcodes.com/es/nombres-de-los-colores/
@@ -575,7 +575,7 @@ Si utilizas Visual Studio Code y mantienes el mouse sobre el selector, te mostra
 link https://specificity.keegan.st/
 
 
-**Tipos de display más usados: block, inline e inline-block**
+## Tipos de display más usados: block, inline e inline-block
 
 La propiedad ```display``` establece el tipo de visualización de los elementos HTML sin afectar el flujo normal de los elementos.
 
