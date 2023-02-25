@@ -822,3 +822,13 @@ Por ejemplo, con los estilos que definimos anteriormente, establezcamos esta nue
 El tamaño total del elemento será de ```150px``` en ambos ejes, donde se calcularon las medidas del contenido para que la suma total sea lo especificado en el ```width``` y ```height```. Si evaluamos este elemento en las herramientas del desarrollador mostrará su tamaño total como ```150x150``` y el contenido como ```90x90```.
 
 ![](img/frontend_developer23.png)
+
+Conclusión, establece las medidas totales del elemento con ```width``` y ```height```, junto con ```box-sizing: border-box```, para que el contenido se adecue a las necesidades del contenedor.
+
+## ¿Cuál es el problema con el tamaño de los bordes?
+
+Recapitulando, el tamaño total de un elemento es la suma de tres: el borde, el espacio interior y el contenido.
+
+Entonces, en algunas ocasiones tendrás la intención de añadir un borde al realizar un hover. Esto provocará que el elemento necesite más espacio del inicial, en un contenedor con más elementos puede ocasionar un conflicto.
+
+Mira el siguiente ejemplo, e intenta poner el cursor sobre un elemento ¿qué sucede?
