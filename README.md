@@ -767,3 +767,15 @@ div {
 }
 ```
 
+### Qué son los valores por defecto
+
+Por defecto, el navegador establece valores iniciales a algunas propiedades CSS, este es el caso de ```margin``` y ```padding```. Una buena práctica es utilizar el selector universal para restablecer estos valores a ```0```, para que no surjan errores inesperados.
+
+```css
+* {
+    margin: 0;
+    padding: 0;
+}
+```
+
+### Qué es el tamaño total del elemento
