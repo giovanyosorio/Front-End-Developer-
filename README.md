@@ -803,4 +803,22 @@ El tamaño total del elemento será de ```210px``` en ambos ejes, donde la suma 
 Aunque se conozca las medidas de los elementos de esta manera, no siempre existirá un control total. Por lo que podríamos establecer el tamaño total del elemento con ```width``` y ```height```, y no solo del contenido, añadiendo la propiedad ```box-sizing```.
 
 
-# Propiedad box-sizing
+## Propiedad box-sizing
+
+La propiedad ```box-sizing```establece cómo se calculará el width y el height si incluyen bordes y espacios internos. Como buena práctica, se lo coloca en el selector universal, para que todos los elementos sigan esta tendencia.
+```css
+* {
+  box-sizing: border-box;
+}
+```
+
+
+Con el valor ```border-box```, el tamaño total del elemento será igual al especificado en el ```width``` y ```height```, provocando que las medidas del contenido cambien con respecto a los bordes y espacios internos.
+
+Por ejemplo, con los estilos que definimos anteriormente, establezcamos esta nueva propiedad.
+
+[Ejemplo de box-sizing](https://codi.link/PGRpdj5Mb3JlbSBpcHN1bSBkb2xvciBzaXQgYW1ldCBjb25zZWN0ZXR1ciBhZGlwaXNpY2luZyBlbGl0aTwvZGl2Pg0KDQoNCg==%7CLyogUXVpdGEgbG9zIGNvbWVudGFyaW9zIHkgb2JzZXJ2YSBsbyBxdWUgb2N1cnJlICovDQoqIHsNCiAgbWFyZ2luOiAwOw0KICBwYWRkaW5nOiAwOw0KICAvKiBib3gtc2l6aW5nOiBib3JkZXItYm94OyAqLw0KfQ0KDQpkaXZ7DQogIGJhY2tncm91bmQtY29sb3I6IGdyZWVueWVsbG93Ow0KICB3aWR0aDogMTUwcHg7DQogIGhlaWdodDogMTUwcHg7DQogIHBhZGRpbmc6IDIwcHg7DQogIGJvcmRlcjogMTBweCBzb2xpZCBncmF5Ow0KICBtYXJnaW46IDMwcHg7DQp9DQoNCg0KDQoNCg0K%7C)
+
+El tamaño total del elemento será de ```150px``` en ambos ejes, donde se calcularon las medidas del contenido para que la suma total sea lo especificado en el ```width``` y ```height```. Si evaluamos este elemento en las herramientas del desarrollador mostrará su tamaño total como ```150x150``` y el contenido como ```90x90```.
+
+![](img/frontend_developer23.png)
