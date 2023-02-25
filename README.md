@@ -798,3 +798,9 @@ div{
 El tamaño total del elemento será de ```210px``` en ambos ejes, donde la suma fue: ```150``` (altura/anchura) + ```20 x 2``` (padding ambos lados) + ```10 x 2``` (borde ambos lados). Si evaluamos este elemento en las herramientas del desarrollador mostrará su tamaño como ```210x210```
 
 ![](img/frontend_developer22.png)
+
+
+Aunque se conozca las medidas de los elementos de esta manera, no siempre existirá un control total. Por lo que podríamos establecer el tamaño total del elemento con ```width``` y ```height```, y no solo del contenido, añadiendo la propiedad ```box-sizing```.
+
+
+# Propiedad box-sizing
