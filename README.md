@@ -729,3 +729,41 @@ Puedes establecer el padding en cada posición en una sola línea de las siguien
 * ```padding: [arriba] [derecha e izquierda] [abajo]```, siguiendo el eje principal.
 * ```padding: [arriba y abajo] [derecha e izquierda]```, siguiendo los ejes del elemento.
 También estableciendo de manera individual los valores de cada posición:
+
+```css
+div {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+```
+
+### Qué es el espaciado externo del elemento HTML o margin
+
+El ```margin``` consiste en el espacio entre el borde y otro elemento HTML. Si imaginamos una caja, es el espacio entre tu caja y otra caja.
+
+```css
+div {
+    margin: 10px;
+}
+```
+[Ejemplo de margin](https://codi.link/PGRpdiBjbGFzcyA9ICJtYXJnaW4iPkxvcmVtIGlwc3VtIGRvbG9yIHNpdCBhbWV0IGNvbnNlY3RldHVyIGFkaXBpc2ljaW5nIGVsaXRpPC9kaXY+DQo8ZGl2PlNveSBvdHJvIGVsZW1lbnRvPC9kaXY+DQoNCg0K%7CLyogUXVpdGEgbG9zIGNvbWVudGFyaW9zIHkgb2JzZXJ2YSBlbCBjb21wb3J0YW1pZW50byAqLw0KZGl2ew0KICB3aWR0aDogMTIwcHg7DQogIGhlaWdodDogMTIwcHg7DQogIGJhY2tncm91bmQtY29sb3I6IGdyZWVueWVsbG93Ow0KICBib3JkZXI6IHNvbGlkIDFweCBibGFjazsNCn0NCg0KLm1hcmdpbiB7DQogIC8qIG1hcmdpbjogMjBweDsgKi8NCn0NCg0KDQoNCi8qIElnbm9yYSBlc3RvcyBlc3RpbG9zLCBwb3IgYWhvcmEgKi8NCiogew0KICBmb250LXNpemU6IDEuMXJlbTsNCiAgbWFyZ2luOiAwOw0KfQ0KDQpib2R5ew0KICBkaXNwbGF5OiBmbGV4Ow0KICBtYXJnaW46IDIwcHg7DQogIGZvbnQtd2VpZ2h0OiA4MDA7DQp9DQoNCg0KDQoNCg==%7C)
+
+Puedes establecer el margin en cada posición en una sola línea de las siguientes maneras:
+
+* ```margin: [arriba] [derecha] [abajo] [izquierda]```, siguiendo el sentido horario.
+* ```margin: [arriba] [abajo] [derecha e izquierda]```, siguiendo el eje principal.
+* ```margin: [arriba y abajo] [derecha e izquierda]```, siguiendo los ejes del elemento.
+
+También estableciendo de manera individual los valores de cada posición:
+
+```css
+div {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+```
+
