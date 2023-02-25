@@ -662,7 +662,7 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 El modelo de caja se compone de cuatro elementos: margin, border, padding y contenido
 
-![](img/frontend_developer20.png.png)
+![](img/frontend_developer20.png)
 
 Si entras a las herramientas de desarrollador de tu navegador y señalas un elemento HTML, en la sección de estilos te aparecerá una vista parecida a la anterior imagen, este es el modelo de caja del elemento señalado.
 
