@@ -853,3 +853,17 @@ Mira el siguiente código, cambia el valor de ```display``` a ```inline-block```
 ![](img/frontend_developer24.png)
 
 Como puedes observar, al cambiar el display este comportamiento desaparece. Además, en flexbox y grid no ocurre el colapso de márgenes. Cuida los márgenes que colocas en los elementos de tipo bloque.
+
+# Posicionamiento en CSS
+
+
+El posicionamiento en CSS consiste en cómo un elemento se situará, con respecto a su elemento padre y al flujo normal del documento. El flujo normal del documento es el orden de los elementos establecidos en el HTML.
+
+La posición del elemento se la define con la propiedad ```position```, mediante los siguientes valores:
+
+* ```static```
+* ```relative```
+* ```absolute```
+* ```sticky```
+
+![](img/Capture2.PNG.png)
