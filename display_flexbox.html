@@ -5,34 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .container{
-            display: flex;
-            background-color: aqua;
-            justify-content: center;
-    
-            height: 200px;
-            flex-direction:column ;
-
-        }
-        .item {
-         
-            width: 20px;
-            height: 20px;
-            background-color: blueviolet;
-        }
-        .container .item:nth-child(2n+1){
-            background-color: blue;
-        }
-    </style>
 </head>
+<style>
+    .container{
+        display: flex;
+        background-color: aqua;
+        justify-content: center;
+        height: 500px;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .item{
+        width: 30px;
+        height: 30px;
+        background: red;
+    }
+    .item:nth-child(2n+1){
+background-color: blue;
+    }
+</style>
 <body>
     <div class="container">
-        <div class="item">  </div>
-        <div class="item">  </div>
-        <div class="item">  </div>
-        <div class="item">  </div> 
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+
     </div>
-    
 </body>
 </html>
