@@ -779,3 +779,22 @@ Por defecto, el navegador establece valores iniciales a algunas propiedades CSS,
 ```
 
 ### Qué es el tamaño total del elemento
+
+El tamaño total del elemento está determinado por la suma de los valores de las propiedades border ```padding``` y ```width``` o ```height```, dependiendo del eje. La propiedad margin no está incluida en este cálculo.
+
+Por ejemplo, definimos los siguientes estilos:
+
+```css
+div{
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+  border: 10px solid gray;
+  margin: 30px;
+}
+```
+[Ejemplo de medidas totales](https://codi.link/PGRpdj5Mb3JlbSBpcHN1bSBkb2xvciBzaXQgYW1ldCBjb25zZWN0ZXR1ciBhZGlwaXNpY2luZyBlbGl0aTwvZGl2Pg0KDQoNCg==%7CKiB7DQogIG1hcmdpbjogMDsNCiAgcGFkZGluZzogMDsNCn0NCg0KZGl2ew0KICBiYWNrZ3JvdW5kLWNvbG9yOiBncmVlbnllbGxvdzsNCiAgd2lkdGg6IDE1MHB4Ow0KICBoZWlnaHQ6IDE1MHB4Ow0KICBwYWRkaW5nOiAyMHB4Ow0KICBib3JkZXI6IDEwcHggc29saWQgZ3JheTsNCiAgbWFyZ2luOiAzMHB4Ow0KfQ0KDQoNCg0KDQoNCg0KDQoNCg==%7C)
+
+El tamaño total del elemento será de ```210px``` en ambos ejes, donde la suma fue: ```150``` (altura/anchura) + ```20 x 2``` (padding ambos lados) + ```10 x 2``` (borde ambos lados). Si evaluamos este elemento en las herramientas del desarrollador mostrará su tamaño como ```210x210```
+
+![](img/frontend_developer22.png)
