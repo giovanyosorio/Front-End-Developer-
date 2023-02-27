@@ -969,3 +969,24 @@ Las propiedades CSS más usadas son las siguientes, separadas en secciones comun
 * Height
 * Color
 * Background
+
+![](img/frontend_developer28.png)
+
+También, si deseas conocer todas las etiquetas existentes, puedes revisar el sitio web CSS Reference.
+https://cssreference.io/
+
+## Propiedades de textos
+
+Las propiedades para manipular los textos y tipografía son los siguientes:
+
+* ```font-size```: establece un tamaño de fuente.
+* ```font-weight```: establece el resaltado del texto, con valores de 100 a 900 en intervalos de 100; donde 100 es delgada y 900 es negrita.
+* ```font-family```: establece el tipo de fuente.
+* ```text-align```: establece la posición del texto: right, left, center y justify.
+* ```color```: establece el color del texto.
+
+## Bordes redondeados
+
+La propiedad que establece bordes redondeados es: ```border-radius```.
+
+[Ejemplo de bordes redondeados](https://codi.link/PGRpdiBjbGFzcz0iYm9yZGVyIj48L2Rpdj4NCjxkaXYgY2xhc3M9ImNpcmNsZSI+PC9kaXY+%7CZGl2IHsNCiAgd2lkdGg6IDIwMHB4Ow0KICBoZWlnaHQ6IDIwMHB4Ow0KICBiYWNrZ3JvdW5kLWNvbG9yOiBicm93bjsNCiAgbWFyZ2luOiAyMHB4Ow0KICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7DQp9DQoNCi5ib3JkZXJ7DQogIGJvcmRlci1yYWRpdXM6IDM1cHg7DQp9DQoNCi5jaXJjbGV7DQogIGJvcmRlci1yYWRpdXM6IDUwJTsNCn0NCg0KDQo=%7C)
