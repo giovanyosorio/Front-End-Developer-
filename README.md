@@ -854,18 +854,3 @@ Mira el siguiente código, cambia el valor de ```display``` a ```inline-block```
 
 Como puedes observar, al cambiar el display este comportamiento desaparece. Además, en flexbox y grid no ocurre el colapso de márgenes. Cuida los márgenes que colocas en los elementos de tipo bloque.
 
-## Z-index y el contexto de apilamiento
-
-El contexto de apilamiento consiste en la superposición de capas o elementos a lo largo del eje Z del navegador. Esto es importante para evitar que un elemento esté ocultando a otro.
-
-
-![](img/giphy.gif)
-
-### Qué son los planos y ejes
-El navegador está constituido de tres planos y ejes: el ancho o X; el alto o Y; y el de profundidad o Z.
-
-El eje X positivo está hacia la derecha; el eje Y positivo está hacia abajo; y el eje Z positivo está hacia el usuario.
-
-![](img/animationland03.PNG)
-
-Estos son muy importantes para mover los elementos del HTML desde un punto inicial hacia un punto final.

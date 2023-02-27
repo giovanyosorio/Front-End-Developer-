@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        width: 200px;
+        height: 200px;
+        background-color: papayawhip;
+        position: relative;
+        top:20px
+    }
+    .item{
+        width: 20px;
+        height: 20px;
+        background-color: tomato;
+        right: 0;
+        position: absolute;
+    }
+    nav{
+        width: 100%;
+        height: 60px;
+        background-color: skyblue;
+        position: fixed;
+        top: 0;
+    }
+    ul{
+        position: sticky;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="item"></div>
+    </div>
+
+    <nav>
+        
+    </nav>
+    <p>👇 Expande este comentario para que veas cómo darle su estambre a un michi usando position 7u7
+        .
+        El tema de position es muy interesante porque es prácticamente otra forma que tenemos de posicionar con CSS 👀.
+        .
+        Usualmente es preferible trabajar con nuestras técnicas de alineamiento comunes como CSS Grid o Flexbox, pero suele haber casos donde sí o sí necesitamos usar position.
+        .
+        El ejemplo más común es con el menú de navegación, que casi siempre solemos verlo en todas las páginas. Aunque también podríamos usarlos si queremos posicionar un elemento con base en otro (aquí es donde intervienen el relative con el absolute), y de hecho esta también es una técnica muy usada cuando se dibuja con CSS 7u7.
+        .
+        ¡Hagamos algo! Imaginemos que queremos darle su bola de estambre a este michi 😼:
+    
+    
+        Lo primero que haría es crear un contenedor y dentro meter al michi y a la bola de estambre (las imágenes las toma desde internet):
+        .
+    
+        .
+        Nota que a cada uno le puse un id. También me interesa que mi bola de estambre esté chiquita para que el michi la pueda agarrar, así que desde CSS le puedo cambiar el tamaño:
+        .
+        
+        .container,
+        #michi {
+            width: 800px;
+        }
+        #estambre {
+            width: 100px;
+        }
+        .
+        Con esto hago que mi contenedor y el michi midan 800px y que la bolita de estambre mida 100px, así que me queda así:
+        .
+        michi-estambre.png
+        .
+        Ahora solo nos queda dársela, para eso podemos usar position. Simplemente a mi container le pongo un position: relative; y al estambre le pongo un position: absolute;. Recuerda que cuando usamos un absolute, este elemento se va a mover con respecto al elemento relative más cercano, así que en este caso moveremos el estambre con respecto a nuestro contenedor 😄.
+        .
+        Sabiendo que podemos mover el estambre dentro de nuestro container, nos tocará adivinar cuántos pixeles hacia abajo y cuántos pixeles hacia la izquierda deberemos moverlo para dárselo al michi 👀. En este caso, yo sé que debo moverlo 190 pixeles hacia abajo y 245 pixeles hacia la izquierda, por lo que el resto de mi código CSS quedaría así:
+        .
+    
+    
+    </p>
+    <ul>
+        <li>
+            asda
+        </li>
+
+        <ul>
+            <li>
+                asda
+            </li>
+
+            <ul>
+                <li>
+                    asda
+                </li>
+
+                <ul>
+                    <li>
+                        asda
+                    </li>
+                    <ul>
+                        <li>
+                            asda
+                        </li>    <ul>
+                            <li>
+                                asda
+                            </li>
+                            <ul>
+                                <li>
+                                    asda
+                                </li>
+    </ul>
+</body>
+</html>
