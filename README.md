@@ -1111,3 +1111,29 @@ Abre las herramientas del navegador y da clic en la opción “Toggle device too
 Utiliza el siguiente ejemplo para visualizar cómo cambian los estilos según la longitud de la pantalla. Puedes revisar la media querie que está en el código. Aunque solo cambien el color de dos elementos, puede estar cualquier propiedad que desees, prueba con todo.
 
 [Ejemplo de media queries](https://codi.link/PGRpdiBjbGFzcz0iY2FyZDEiPjwvZGl2Pg0KPGRpdiBjbGFzcz0iY2FyZDIiPjwvZGl2Pg0KDQo=%7CKiB7DQogIG1hcmdpbjogMDsNCiAgcGFkZGluZzogMDsNCiAgYm94LXNpemluZzogYm9yZGVyLWJveDsNCn0NCg0KYm9keSB7DQogIHdpZHRoOiAxMDB2dzsNCiAgaGVpZ2h0OiAxMDB2aDsNCn0NCg0KLmNhcmQxew0KICB3aWR0aDogMTAwJTsNCiAgaGVpZ2h0OiAyNSU7DQogIGJhY2tncm91bmQtY29sb3I6IGJyb3duOw0KfQ0KDQouY2FyZDIgew0KICB3aWR0aDogNTAlOw0KICBoZWlnaHQ6IDc1JTsNCiAgYmFja2dyb3VuZC1jb2xvcjogY2hhcnRyZXVzZTsNCn0NCg0KQG1lZGlhIChtaW4td2lkdGg6IDUwMHB4KXsNCiAgLmNhcmQxIHsNCiAgICAgIGJhY2tncm91bmQtY29sb3I6IGNoYXJ0cmV1c2U7DQogIH0NCg0KICAuY2FyZDIgew0KICAgIGJhY2tncm91bmQtY29sb3I6IGJyb3duOw0KICB9DQp9DQoNCg==%7C)
+
+# ¿Qué son las arquitecturas CSS? ¿Para qué sirven?
+
+Las arquitecturas CSS consisten en manejar el código CSS con una serie de reglas y patrones para facilitar su lectura, mantenibilidad y escabilidad.
+
+El código que has manejado no se asemeja a la realidad, pues deberás manejar varios cientos o miles de líneas de código. Las arquitecturas CSS se encargan de manejar una norma en el código para que cualquiera pueda añadir o quitar funcionalidad sin mucho trabajo.
+
+![](img/frontend_developer33.png)
+
+## Objetivos de las arquitecturas de CSS
+
+
+Los objetivos de las arquitecturas de CSS son:
+
+* ```Ser predecible```: el código debe ser lo menos complejo posible.
+* ```Reutilizable```: el código debe ser lo menos redundante, para evitar problemas con la especificidad.
+* ```Mantenible```: el código debe ser lo más fácil de manejar para añadir o quitar estilos.
+* ```Escalable```: el código debe ser capaz de crecer.
+
+## Buenas prácticas de las arquitecturas de CSS
+
+Las buenas prácticas de las arquitecturas de CSS son:
+
+* ```Lineamientos y estándares```: definir normas en tu grupo de trabajo de cómo estará escrito el código.
+* ```Documentación```: establecer una breve explicación del código y de los lineamientos, esto sirve especialmente para nuevas personas se familiaricen con lo que deben hacer.
+* ```Componentes```: establecer de manera componetizada cada uno de los elementos de tu página, es decir, manejarlos por partes para después unirlos en un todo.
