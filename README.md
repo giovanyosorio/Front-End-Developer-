@@ -990,3 +990,28 @@ Las propiedades para manipular los textos y tipografía son los siguientes:
 La propiedad que establece bordes redondeados es: ```border-radius```.
 
 [Ejemplo de bordes redondeados](https://codi.link/PGRpdiBjbGFzcz0iYm9yZGVyIj48L2Rpdj4NCjxkaXYgY2xhc3M9ImNpcmNsZSI+PC9kaXY+%7CZGl2IHsNCiAgd2lkdGg6IDIwMHB4Ow0KICBoZWlnaHQ6IDIwMHB4Ow0KICBiYWNrZ3JvdW5kLWNvbG9yOiBicm93bjsNCiAgbWFyZ2luOiAyMHB4Ow0KICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7DQp9DQoNCi5ib3JkZXJ7DQogIGJvcmRlci1yYWRpdXM6IDM1cHg7DQp9DQoNCi5jaXJjbGV7DQogIGJvcmRlci1yYWRpdXM6IDUwJTsNCn0NCg0KDQo=%7C)
+
+
+# Unidades de medida
+
+Las unidades de medida establecen una longitud para un determinado elemento o tipografía. Existen dos tipos de medidas: absolutas y relativas.
+
+![](img/frontend_developer29.png)
+
+## Qué son las medidas absolutas
+
+Las medidas absolutas son valores fijos, por lo que la medida no cambiará. La unidad absoluta más utilizada son los píxeles ```px```, las demás son muy poco utilizadas, pero es bueno que las conozcas.
+
+
+| Unidad        | Nombre           | Equivalencia  |
+| ------------- |:-------------:| -----:|
+| px            | píxeles       | 1 px = 1/96 in |
+| cm    | centímetros      |   1 cm = 96/2.54 px |
+| mm  |  milímetros      |    1 mm = 1/10 cm |
+| Q    | cuartos de milímetros      |   1 Q = 1/4 mm |
+| in  |  pulgadas      |    1 in = 2.54 cm = 96 px |
+| pc    | picas     |   1 pc = 1/6 in |
+| pt  |  puntos      |    1 pt = 1/72 in |
+
+## Qué son las medidas relativas
+Las medidas relativas son valores variables, por lo que la medida depende de un valor externo. Se debe tener en cuidado con estas porque un pequeño cambio puede desencadenar tamaños muy elevados.
