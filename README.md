@@ -1015,3 +1015,56 @@ Las medidas absolutas son valores fijos, por lo que la medida no cambiará. La u
 
 ## Qué son las medidas relativas
 Las medidas relativas son valores variables, por lo que la medida depende de un valor externo. Se debe tener en cuidado con estas porque un pequeño cambio puede desencadenar tamaños muy elevados.
+
+
+
+| Unidad        | Depende de           |
+| ------------- |:-------------:|
+| em            | el elemento que lo contiene       | 
+| rem    | el elemento raíz      | 
+| vw  |  1% del ancho de la pantalla (view width)      | 
+| vh    | 1% de la altura de la pantalla (view height)     | 
+| vmin  |  1% de la dimensión más pequeña de la pantalla      | 
+| vman    | 1% de la dimensión más grande de la pantalla     | 
+| ch  |  anchura del caracter “0” del elemento que lo contiene      | 
+| lh  |  altura de la línea del elemento que lo contiene     | 
+
+## Diferencia entre rem y em
+
+La medida ```em``` depende del elemento que lo contiene, es decir, si un elemento tiene ```font-size``` de ```20px```, el valor de ```em``` es igual a ```20px```, el valor de ```2em``` será de ```40px``` y así sucesivamente.
+
+La medida rem depende del elemento raíz, el valor del font-size del elemento raíz es de ```16px```, por lo tanto, el valor de ```2rem``` es igual a ```32px```, y así sucesivamente.
+
+[Ejemplo de medida em](https://codi.link/PGRpdiBjbGFzcz0ibml2ZWwxIj4NCiAgPHA+TGV0cmEgZGUgMjBweDwvcD4NCiAgPGRpdiBjbGFzcz0ibml2ZWwyIj4NCiAgICA8cD5MZXRyYSBkZSAyMHB4PC9wPg0KICAgIDxkaXYgY2xhc3M9Im5pdmVsMyI+DQogICAgICA8cD5MZXRyYSBkZSA0MHB4PC9wPg0KICAgICAgPGRpdiBjbGFzcz0ibml2ZWw0Ij4NCiAgICAgICAgPHA+TGV0cmEgZGUgODBweDwvcD4NCiAgICAgIDwvZGl2Pg0KICAgIDwvZGl2Pg0KICA8L2Rpdj4NCjwvZGl2Pg==%7CKiB7DQogIG1hcmdpbjogMDsNCn0NCg0KLm5pdmVsMSB7DQogIC8qIFB1ZWRlcyBjYW1iaWFyIGVzdGUgdmFsb3IgKi8NCiAgZm9udC1zaXplOiAyMHB4Ow0KfQ0KDQoubml2ZWwyIHsNCiAgLyogdGFtYcOxbyA9IDIwcHggKiAxID0gMjBweCAqLw0KICBmb250LXNpemU6IDFlbTsNCn0NCg0KLm5pdmVsMyB7DQogIC8qIHRhbWHDsW8gPSAyMHB4ICogMiA9IDQwcHggKi8NCiAgZm9udC1zaXplOiAyZW07DQp9DQoNCi5uaXZlbDQgew0KICAvKiB0YW1hw7FvID0gNDBweCAqIDIgPSA4MHB4ICovDQogIGZvbnQtc2l6ZTogMmVtOw0KfQ0KDQoNCg==%7C)
+
+En las herramientas del desarrollador, te muestra el tamaño de la fuente (font) en píxeles.
+
+![](img/frontend_developer30.png)
+
+[Ejemplo de medida rem](https://codi.link/PGRpdiBjbGFzcz0ibml2ZWwxIj4NCiAgPHA+TGV0cmEgZGUgMjBweDwvcD4NCiAgPGRpdiBjbGFzcz0ibml2ZWwyIj4NCiAgICA8cD5MZXRyYSBkZSAxNnB4PC9wPg0KICAgIDxkaXYgY2xhc3M9Im5pdmVsMyI+DQogICAgICA8cD5MZXRyYSBkZSAzMnB4PC9wPg0KICAgICAgPGRpdiBjbGFzcz0ibml2ZWw0Ij4NCiAgICAgICAgPHA+TGV0cmEgZGUgMzJweDwvcD4NCiAgICAgIDwvZGl2Pg0KICAgIDwvZGl2Pg0KICA8L2Rpdj4NCjwvZGl2Pg==%7CLm5pdmVsMSB7DQogIC8qIFB1ZWRlcyBjYW1iaWFyIGVzdGUgdmFsb3IgKi8NCiAgZm9udC1zaXplOiAyMHB4Ow0KfQ0KDQoubml2ZWwyIHsNCiAgLyogdGFtYcOxbyA9IDE2cHggKiAxID0gMTZweCAqLw0KICBmb250LXNpemU6IDFyZW07DQp9DQoNCi5uaXZlbDMgew0KICAvKiB0YW1hw7FvID0gMTZweCAqIDIgPSAzMnB4ICovDQogIGZvbnQtc2l6ZTogMnJlbTsNCn0NCg0KLm5pdmVsNCB7DQogIC8qIHRhbWHDsW8gPSAxNnB4ICogMiA9IDMycHggKi8NCiAgZm9udC1zaXplOiAycmVtOw0KfQ0KDQoNCg==%7C)
+
+## Diferencia entre porcentajes y la anchura y altura de la pantalla
+
+Los porcentajes representan el tamaño con respecto al total del elemento padre. Si el elemento padre tiene ```20px```, entonces el ```100%``` será de ```20px```.
+
+Por otra parte, las medidas de anchura ```vw``` y altura ```vh``` representan el tamaño con respecto al total de la pantalla. Si el elemento tiene un tamaño de ```100vw``` será el ```100``` por ciento de la pantalla.
+
+Si un elemento tiene todo el tamaño de la pantalla, entonces solamente en ese punto la medida ```100%``` será igual a ```100vw``` o ```100vh```.
+
+## Problema con las medidas de texto
+
+Los navegadores tienen una opción para cambiar el tamaño del texto. Con medidas absolutas, el tamaño de la letra no cambiará, por lo que será un problema para el usuario.
+
+Con medidas relativas, el tamaño cambiará con respecto a la fuente del elemento raíz. Por lo que estas son una buena opción para solucionar este problema de accesibilidad, en específico la medida ```rem```.
+
+Sin embargo, la medida ```rem``` equivale a ```16px``` y puede ser confuso mientras utilices valores altos. Por lo que vamos a cambiar el valor del elemento de la raíz para que la medida rem sea igual a 10px.
+
+En la etiqueta ```<html>``` cambia el valor de la propiedad ```font-size``` a ```62.5%```, resultado de una regla de tres: si ```16px``` es igual al ```100%``` entonces cuál será el porcentaje para ```10px```.
+
+```css
+html {
+    font-size: 62.5%;
+}
+```
+
+Con este cambio, la medida ```rem``` será igual a ```10px```, ahora los puedes utilizar sin problema y tus textos cambiarán según las preferencias de usuario.
