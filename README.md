@@ -1068,3 +1068,46 @@ html {
 ```
 
 Con este cambio, la medida ```rem``` será igual a ```10px```, ahora los puedes utilizar sin problema y tus textos cambiarán según las preferencias de usuario.
+
+# Responsive Design
+
+El diseño responsivo (Responsive Design) consiste en un conjunto de herramientas para que tu sitio se vea bien en varias medidas de pantalla, esto incluye imágenes, tipografía, internacionalización de la página y entre otros.
+
+En la actualidad, la mayoría de sitios web son visitados desde un celular, por lo que asegurarse que nuestro sitio sea responsivo para cualquier dispositivo es fundamental para optimizar las ganancias.
+
+## Qué son las media queries
+
+Las media queries son reglas CSS que establecen un comportamiento distinto o diferentes estilos en un cierto rango de la pantalla. Esto sirve para establecer el layout del sitio web para diferentes tipos de pantalla: escritorio, tablets y celulares.
+
+* ```max-width / max-height```: establece un rango máximo para cierto comportamiento.
+* ```min-width / min-height```: establece un rango mínimo para cierto comportamiento.
+Estos valores son parecidos a condicionales, mientras se cumpla la condición, aplica determinados estilos.
+
+### Estructura de la media querie
+
+La estructura de una media querie consiste en empezar con ```@media```, seguido del tipo de la media querie estableciendo un rango, envolviendo las reglas CSS dentro de ese rango.
+
+![](img/frontend_developer31.png)
+
+```css
+@media (max-width:750px){
+    div {
+        color: red;
+    }
+    p {
+        background-color: red;
+    }
+}
+```
+
+#### Herramientas del desarrollador para media queries
+
+Para observar que los cambios se estén aplicando correctamente, las herramientas de desarrollador serán de gran ayuda.
+
+Abre las herramientas del navegador y da clic en la opción “Toggle device tool”, aquí podrás manipular la pantalla y observar en cuántos píxeles está ocurriendo determinados estilos.
+
+![](img/frontend_developer32.png)
+
+Utiliza el siguiente ejemplo para visualizar cómo cambian los estilos según la longitud de la pantalla. Puedes revisar la media querie que está en el código. Aunque solo cambien el color de dos elementos, puede estar cualquier propiedad que desees, prueba con todo.
+
+[Ejemplo de media queries](https://codi.link/PGRpdiBjbGFzcz0iY2FyZDEiPjwvZGl2Pg0KPGRpdiBjbGFzcz0iY2FyZDIiPjwvZGl2Pg0KDQo=%7CKiB7DQogIG1hcmdpbjogMDsNCiAgcGFkZGluZzogMDsNCiAgYm94LXNpemluZzogYm9yZGVyLWJveDsNCn0NCg0KYm9keSB7DQogIHdpZHRoOiAxMDB2dzsNCiAgaGVpZ2h0OiAxMDB2aDsNCn0NCg0KLmNhcmQxew0KICB3aWR0aDogMTAwJTsNCiAgaGVpZ2h0OiAyNSU7DQogIGJhY2tncm91bmQtY29sb3I6IGJyb3duOw0KfQ0KDQouY2FyZDIgew0KICB3aWR0aDogNTAlOw0KICBoZWlnaHQ6IDc1JTsNCiAgYmFja2dyb3VuZC1jb2xvcjogY2hhcnRyZXVzZTsNCn0NCg0KQG1lZGlhIChtaW4td2lkdGg6IDUwMHB4KXsNCiAgLmNhcmQxIHsNCiAgICAgIGJhY2tncm91bmQtY29sb3I6IGNoYXJ0cmV1c2U7DQogIH0NCg0KICAuY2FyZDIgew0KICAgIGJhY2tncm91bmQtY29sb3I6IGJyb3duOw0KICB9DQp9DQoNCg==%7C)
